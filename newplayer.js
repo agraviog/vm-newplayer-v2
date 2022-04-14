@@ -77,24 +77,6 @@ Webflow.push(function () {
     $(this).addClass("current");
   });
 
-  //apple button
-  $(".apple-btn").on("click", function () {
-    $(".apple-img").addClass("current");
-    $(".apple-title").addClass("current");
-  });
-
-  //harmony button
-  $(".harmony-btn").on("click", function () {
-    $(".harmony-img").addClass("current");
-    $(".harmony-title").addClass("current");
-  });
-
-  //phone-effect button
-  $(".phone-effect-btn").on("click", function () {
-    $(".phone-effect-img").addClass("current");
-    $(".phone-effect-title").addClass("current");
-  });
-
   plyApple.onclick = function () {
     waveForm.load("audio/an_apple_a_day_original.mp3");
     $(".control_play--nplayer").removeClass("control_disable");
